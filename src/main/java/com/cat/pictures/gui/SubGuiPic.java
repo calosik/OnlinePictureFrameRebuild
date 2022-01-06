@@ -28,23 +28,23 @@ public class SubGuiPic extends SubGui {
    }
 
    public void createControls() {
-      this.controls.add(new GuiLabel("Название Изображения", 160, 10));
+      this.controls.add(new GuiLabel("\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F", 160, 10));
       this.controls.add(new GuiTextfield("url", this.frame.url, 160, 25, 185, 20));
-      this.controls.add(new GuiLabel("Размеры", 160, 53));
+      this.controls.add(new GuiLabel("\u0420\u0430\u0437\u043C\u0435\u0440\u044B", 160, 53));
       this.controls.add((new GuiTextfield("sizeX", this.frame.sizeX + "", 160, 70, 40, 20)).setFloatOnly());
       this.controls.add((new GuiTextfield("sizeY", this.frame.sizeY + "", 205, 70, 40, 20)).setFloatOnly());
       this.controls.add(new GuiButton("reX", "x->y", 250, 70, 46));
       this.controls.add(new GuiButton("reY", "y->x", 300, 70, 46));
-      this.controls.add(new GuiCheckBox("flip", "Отзеркалить", 160, 100, this.frame.flipped));
-      this.controls.add(new GuiStateButton("head", this.frame.headPos, 256, 96, new String[]{"Поворот (нет)", "Поворот (Только X)", "Поворот (Все)"}));
+      this.controls.add(new GuiCheckBox("flip", "\u041E\u0442\u0437\u0435\u0440\u043A\u0430\u043B\u0438\u0442\u044C", 160, 100, this.frame.flipped));
+      this.controls.add(new GuiStateButton("head", this.frame.headPos, 256, 96, new String[]{"\u041F\u043E\u0432\u043E\u0440\u043E\u0442 (\u043D\u0435\u0442)", "\u041F\u043E\u0432\u043E\u0440\u043E\u0442 (\u0422\u043E\u043B\u044C\u043A\u043E X)", "\u041F\u043E\u0432\u043E\u0440\u043E\u0442 (\u0412\u0441\u0435)"}));
       this.controls.add(new GuiStateButton("posX", this.frame.posX, 160, 120, new String[]{"left (x)", "center (x)", "right (x)"}));
       this.controls.add(new GuiStateButton("posY", this.frame.posY, 256, 120, new String[]{"left (y)", "center (y)", "right (y)"}));
-      this.controls.add(new GuiCheckBox("visibleFrame", "Отображение Блока", 160, 145, this.frame.visibleFrame));
-      this.controls.add(new GuiLabel("Прозрачность", 160, 165));
+      this.controls.add(new GuiCheckBox("visibleFrame", "\u041E\u0442\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 \u0411\u043B\u043E\u043A\u0430", 160, 145, this.frame.visibleFrame));
+      this.controls.add(new GuiLabel("\u041F\u0440\u043E\u0437\u0440\u0430\u0447\u043D\u043E\u0441\u0442\u044C", 160, 165));
       this.controls.add(new GuiAnalogeSlider("transparency", 160, 180, 185, 5, this.frame.transparency, 0.0F, 1.0F));
-      this.controls.add(new GuiLabel("Дистанция Отображения ", 160, 195));
+      this.controls.add(new GuiLabel("\u0414\u0438\u0441\u0442\u0430\u043D\u0446\u0438\u044F \u041E\u0442\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F ", 160, 195));
       this.controls.add(new GuiSteppedSlider("renderDistance", 160, 210, 185, 15, this.frame.renderDistance, 4.0F, 64.0F));
-      this.controls.add(new GuiButton("Save", "Сохранить", 160, 230, 185));
+      this.controls.add(new GuiButton("Save", "\u0421\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C", 160, 230, 185));
    }
 
    @CustomEventSubscribe
