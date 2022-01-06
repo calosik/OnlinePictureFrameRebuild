@@ -1,3 +1,3 @@
 # OnlinePictureFrameRebuild
 # Мод был адаптирован с одного проекта не для коммерции  
-![alt text](/OnlinePictureFrameRebuild/Main.png)
+![alt text](/Main.png)
