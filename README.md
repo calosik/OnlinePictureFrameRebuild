@@ -1,4 +1,4 @@
-# OnlinePictureFrameRebuild
+# OnlinePictureFrameRebuild Добавлен GIF обработчик
 # Подробнее о моде Смотрите тут https://www.curseforge.com/minecraft/mc-mods/onlinepictureframe
 # Мод был адаптирован с одного проекта не для коммерции  
 ![alt text](/Main.png)
